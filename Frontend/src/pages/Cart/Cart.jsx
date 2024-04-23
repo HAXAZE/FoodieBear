@@ -29,6 +29,7 @@ const Cart = () => {
                   <p>{item.price}</p>
                   <p>{cartItems[item._id]}</p>
                   <p>{item.price * cartItems[item._id]}</p>
+                  <p className='cross'></p>
                   <p>x</p>
                 </div>
                 <hr />
