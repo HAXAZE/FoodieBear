@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import './Navbar.css'
+import './NavBar.css'
 import { assets } from '../../assets/assets'
 import { Link, useNavigate } from 'react-router-dom'
 import { StoreContext } from '../../context/StoreContext'
